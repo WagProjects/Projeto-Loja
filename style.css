@@ -4,6 +4,9 @@ body{
 	margin: 0 auto;
 	background-color: #101010;
 }
+body b{
+	color: #AC58FA;
+}
 #menu ul{
 	height: 32px;
 	margin-top: 0px;
@@ -49,7 +52,7 @@ body{
 	background-color: #141414;
 	color: white;
 	border-top: 2px solid #000000;
-	margin-top: 200px;
+	margin-top: 100px;
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
@@ -90,14 +93,14 @@ body{
 	margin: 50px auto;
 	width: 900px;
 	padding: 10px;
-	background: #000000;
+	background: #161616;
 	border: 1px solid grey;
 	border-radius: 10px;
 }
 #conteudo h1{
 	margin: 40px;
 	text-align: center;
-	font-family: "Helvetica Neue";
+	font-family: "Cambria";
 	color: #AC58FA;
 }
 #conteudo a{
@@ -108,12 +111,33 @@ body{
 }
 #conteudo h3{
 	font-size: 20px;
+	font-family: "Cambria";
 	color: #AC58FA;
 }
 #conteudo p{
 	padding-left: 15px;
 	clear: both;
 	color:	white;
+}
+#conteudo table{
+	background-color: rgb(207, 86, 207);
+	margin-bottom: 10px;
+}
+#conteudo table, th, td{
+	border: 2px solid #AC58FA;
+	border-collapse: collapse;
+	color: white;
+	text-align: center;
+}
+#conteudo th{
+	background-color: white;
+	padding: 15px;
+}
+#conteudo td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 /* CLASSES */
 .pergunta{
@@ -130,4 +154,22 @@ body{
 	border-radius: 4px;
 	padding: 5px;
 	background: #090909;
+}
+.img-centro{
+	border: 2px solid #AC58FA;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dica{
+	background-color: thistle;
+	border: 2px solid #AC58FA;
+	border-radius: 20px;
+	width: 780px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dica li{
+	margin: 15px;
 }
