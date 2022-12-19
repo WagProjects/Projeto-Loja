@@ -7,6 +7,8 @@ body{
 body b{
 	color: #AC58FA;
 }
+
+/*INICIO MENU*/
 #menu ul{
 	height: 32px;
 	margin-top: 0px;
@@ -33,9 +35,6 @@ body b{
 #menu ul li a:hover{
 	color: #AC58FA;
 }
-#menu ul li a:onclick{
-
-}
 #botoes{
 	padding-left: 30px;
 	padding-top: 15px;
@@ -46,9 +45,27 @@ body b{
 	left: 10px;
 	width: 35px;
 }
+/*FIM MENU*/
+
+/*INICIO PLAYER*/
+#stream{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	margin: 100px auto 0px auto;
+}
+#player{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+	height: 100%;
+}
+
+/*FIM PLAYER*/
+
+/*INICIO RODAPE*/
 #rodape{
 	text-align: center;
-	clear: both;
 	background-color: #141414;
 	color: white;
 	border-top: 2px solid #000000;
@@ -56,39 +73,35 @@ body b{
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
-#rodape ul{
-	margin: 15px;
-	padding: 0px;
-	list-style: none;
-	color: white;
+
+#rodape table{
+	margin: 5px auto;
 }
-#rodape li{
-	padding: 15px;
-	display: inline;
+#rodape table td{
+	border: none;
+	width: 120px;
+	height: 30px;
+	font-weight: bold;
 }
+
 #rodape a{
 	color: white;
 	text-decoration: none;
 }
 #rodape a:hover{
+	/*PASSAR O MOUSE POR CIMA*/
 	color: #AC58FA;
 }
-#rodape p{
-	font-family: Didot, serif;
-	color: #696969;
-}
+/*FIM RODAPE*/
+
 #direcionamento{
 	text-align: center;
 }
 #assinatura{
 	background: pink;
 }
-#stream{
-	clear: both;
-	text-align: center;
-	padding: 10px;
-	margin: 100px auto 50px auto;
-}
+
+/*INICIO CONTEUDO*/
 #conteudo{
 	margin: 50px auto;
 	width: 900px;
@@ -139,6 +152,7 @@ body b{
 	padding-left: 5px;
 	padding-right: 5px;
 }
+/*FIM CONTEUDO*/
 /* CLASSES */
 .pergunta{
 	margin-top: 15px;
